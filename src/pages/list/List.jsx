@@ -18,7 +18,7 @@ const List = () => {
   const [max, setMax] = useState(undefined);
 
   const { data, loading, reFetch } = useFetch(
-    `http://localhost:8800/api/hotels?city=${destination}&min=${
+    `https://hotel-room-booking-app1.herokuapp.com/api/hotels?city=${destination}&min=${
       min || 0
     }&max=${max || 999}`
   );
