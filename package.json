@@ -43,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://hotel-room-booking-app1.herokuapp.com/api"
+  "proxy": "https://hotel-booking-backend-api.vercel.app/api"
 }

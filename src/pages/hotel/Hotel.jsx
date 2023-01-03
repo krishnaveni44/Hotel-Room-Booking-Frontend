@@ -25,7 +25,7 @@ const Hotel = () => {
   const [openModal, setOpenModal] = useState(false);
 
   const { data, loading } = useFetch(
-    `https://hotel-room-booking-app1.herokuapp.com/api/hotels/find/${id}`
+    `https://hotel-booking-backend-api.vercel.app/api/hotels/find/${id}`
   );
   const { user } = useContext(AuthContext);
   const navigate = useNavigate();

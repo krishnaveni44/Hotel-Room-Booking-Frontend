@@ -3,7 +3,9 @@ import "./featured.css";
 
 const Featured = () => {
   const { loading } = useFetch(
-    "https://hotel-room-booking-app1.herokuapp.com/api/hotels/countByCity?cities=chennai,newdelhi,mumbai"
+    // "https://hotel-room-booking-app1.herokuapp.com/api/hotels/countByCity?cities=chennai,newdelhi,mumbai"
+    "https://hotel-booking-backend-api.vercel.app/api/hotels/countByCity?cities=chennai,newdelhi,mumbai"
+    
   );
 
   return (

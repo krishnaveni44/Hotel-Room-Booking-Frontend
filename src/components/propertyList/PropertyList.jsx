@@ -3,7 +3,7 @@ import "./propertyList.css";
 
 const PropertyList = () => {
   const { data, loading } = useFetch(
-    "https://hotel-room-booking-app1.herokuapp.com/api/hotels/countByType"
+    "https://hotel-booking-backend-api.vercel.app/api/hotels/countByType"
   );
 
   const images = [

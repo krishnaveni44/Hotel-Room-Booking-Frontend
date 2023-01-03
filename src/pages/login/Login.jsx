@@ -23,7 +23,7 @@ const Login = () => {
     dispatch({ type: "LOGIN_START" });
     try {
       const res = await axios.post(
-        "https://hotel-room-booking-app1.herokuapp.com/api/auth/login",
+        "https://hotel-booking-backend-api.vercel.app/api/auth/login",
         credentials
       );
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data.details });
