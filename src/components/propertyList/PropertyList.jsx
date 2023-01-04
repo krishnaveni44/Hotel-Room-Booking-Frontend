@@ -3,7 +3,8 @@ import "./propertyList.css";
 
 const PropertyList = () => {
   const { data, loading } = useFetch(
-    "https://hotel-booking-backend-api.vercel.app/api/hotels/countByType"
+     "https://hotel-booking-backend-api.vercel.app/api/hotels/countByType"
+   // "http://localhost:8800/api/hotels/countByType"    
   );
 
   const images = [
