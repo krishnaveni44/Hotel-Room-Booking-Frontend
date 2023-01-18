@@ -25,7 +25,7 @@ const Hotel = () => {
   const [openModal, setOpenModal] = useState(false);
 
   const { data, loading } = useFetch(
-     `https://hotel-booking-backend-api.vercel.app/api/hotels/find/${id}`
+     `https://room-booking.onrender.com/api/hotels/find/${id}`
    // `http://localhost:8800/api/hotels/find/${id}`
     
   );

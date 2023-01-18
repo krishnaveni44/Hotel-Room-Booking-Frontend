@@ -23,7 +23,7 @@ const Login = () => {
     dispatch({ type: "LOGIN_START" });
     try {
       const res = await axios.post(
-         "https://hotel-booking-backend-api.vercel.app/api/auth/login",
+         "https://room-booking.onrender.com/api/auth/login",
        // "http://localhost:8800/api/auth/login",
         
         credentials

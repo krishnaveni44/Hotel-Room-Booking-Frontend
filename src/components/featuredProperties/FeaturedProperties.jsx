@@ -3,7 +3,7 @@ import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
   const { data, loading } = useFetch(
-     "https://hotel-booking-backend-api.vercel.app/api/hotels?featured=true&limit=4"
+     "https://room-booking.onrender.com/api/hotels?featured=true&limit=4"
     // " http://localhost:8800/api/hotels?featured=true&limit=4"   
   );
 
